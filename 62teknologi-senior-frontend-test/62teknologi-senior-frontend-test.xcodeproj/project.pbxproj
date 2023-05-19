@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		824ACE702A17574400A58301 /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ACE6E2A17574400A58301 /* ReviewCell.swift */; };
+		824ACE712A17574400A58301 /* ReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 824ACE6F2A17574400A58301 /* ReviewCell.xib */; };
+		82FE22C72A174731002A7DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE22C62A174731002A7DD6 /* AppDelegate.swift */; };
+		82FE22C92A174731002A7DD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE22C82A174731002A7DD6 /* SceneDelegate.swift */; };
+		82FE22CB2A174731002A7DD6 /* BusinessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE22CA2A174731002A7DD6 /* BusinessController.swift */; };
+		82FE22CE2A174731002A7DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FE22CC2A174731002A7DD6 /* Main.storyboard */; };
+		82FE22D02A174734002A7DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FE22CF2A174734002A7DD6 /* Assets.xcassets */; };
+		82FE22D32A174734002A7DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FE22D12A174734002A7DD6 /* LaunchScreen.storyboard */; };
+		82FE22DE2A174734002A7DD6 /* _2teknologi_senior_frontend_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE22DD2A174734002A7DD6 /* _2teknologi_senior_frontend_testTests.swift */; };
+		82FE22E82A174734002A7DD6 /* _2teknologi_senior_frontend_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE22E72A174734002A7DD6 /* _2teknologi_senior_frontend_testUITests.swift */; };
+		82FE22EA2A174734002A7DD6 /* _2teknologi_senior_frontend_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE22E92A174734002A7DD6 /* _2teknologi_senior_frontend_testUITestsLaunchTests.swift */; };
+		82FE22F72A174F20002A7DD6 /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE22F62A174F20002A7DD6 /* BusinessDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82FE22DA2A174734002A7DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FE22BB2A174731002A7DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FE22C22A174731002A7DD6;
+			remoteInfo = "62teknologi-senior-frontend-test";
+		};
+		82FE22E42A174734002A7DD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FE22BB2A174731002A7DD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FE22C22A174731002A7DD6;
+			remoteInfo = "62teknologi-senior-frontend-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		824ACE6E2A17574400A58301 /* ReviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		824ACE6F2A17574400A58301 /* ReviewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewCell.xib; sourceTree = "<group>"; };
+		82FE22C32A174731002A7DD6 /* 62teknologi-senior-frontend-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "62teknologi-senior-frontend-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FE22C62A174731002A7DD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82FE22C82A174731002A7DD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82FE22CA2A174731002A7DD6 /* BusinessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessController.swift; sourceTree = "<group>"; };
+		82FE22CD2A174731002A7DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82FE22CF2A174734002A7DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82FE22D22A174734002A7DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82FE22D42A174734002A7DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FE22D92A174734002A7DD6 /* 62teknologi-senior-frontend-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "62teknologi-senior-frontend-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FE22DD2A174734002A7DD6 /* _2teknologi_senior_frontend_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2teknologi_senior_frontend_testTests.swift; sourceTree = "<group>"; };
+		82FE22E32A174734002A7DD6 /* 62teknologi-senior-frontend-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "62teknologi-senior-frontend-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FE22E72A174734002A7DD6 /* _2teknologi_senior_frontend_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2teknologi_senior_frontend_testUITests.swift; sourceTree = "<group>"; };
+		82FE22E92A174734002A7DD6 /* _2teknologi_senior_frontend_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2teknologi_senior_frontend_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82FE22F62A174F20002A7DD6 /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FE22C02A174731002A7DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FE22D62A174734002A7DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FE22E02A174734002A7DD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		824ACE722A17574700A58301 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				824ACE6E2A17574400A58301 /* ReviewCell.swift */,
+				824ACE6F2A17574400A58301 /* ReviewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		82FE22BA2A174731002A7DD6 = {
+			isa = PBXGroup;
+			children = (
+				82FE22C52A174731002A7DD6 /* 62teknologi-senior-frontend-test */,
+				82FE22DC2A174734002A7DD6 /* 62teknologi-senior-frontend-testTests */,
+				82FE22E62A174734002A7DD6 /* 62teknologi-senior-frontend-testUITests */,
+				82FE22C42A174731002A7DD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82FE22C42A174731002A7DD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FE22C32A174731002A7DD6 /* 62teknologi-senior-frontend-test.app */,
+				82FE22D92A174734002A7DD6 /* 62teknologi-senior-frontend-testTests.xctest */,
+				82FE22E32A174734002A7DD6 /* 62teknologi-senior-frontend-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FE22C52A174731002A7DD6 /* 62teknologi-senior-frontend-test */ = {
+			isa = PBXGroup;
+			children = (
+				824ACE722A17574700A58301 /* TableViewCell */,
+				82FE22C62A174731002A7DD6 /* AppDelegate.swift */,
+				82FE22C82A174731002A7DD6 /* SceneDelegate.swift */,
+				82FE22CA2A174731002A7DD6 /* BusinessController.swift */,
+				82FE22F62A174F20002A7DD6 /* BusinessDetailViewController.swift */,
+				82FE22CC2A174731002A7DD6 /* Main.storyboard */,
+				82FE22CF2A174734002A7DD6 /* Assets.xcassets */,
+				82FE22D12A174734002A7DD6 /* LaunchScreen.storyboard */,
+				82FE22D42A174734002A7DD6 /* Info.plist */,
+			);
+			path = "62teknologi-senior-frontend-test";
+			sourceTree = "<group>";
+		};
+		82FE22DC2A174734002A7DD6 /* 62teknologi-senior-frontend-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				82FE22DD2A174734002A7DD6 /* _2teknologi_senior_frontend_testTests.swift */,
+			);
+			path = "62teknologi-senior-frontend-testTests";
+			sourceTree = "<group>";
+		};
+		82FE22E62A174734002A7DD6 /* 62teknologi-senior-frontend-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82FE22E72A174734002A7DD6 /* _2teknologi_senior_frontend_testUITests.swift */,
+				82FE22E92A174734002A7DD6 /* _2teknologi_senior_frontend_testUITestsLaunchTests.swift */,
+			);
+			path = "62teknologi-senior-frontend-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FE22C22A174731002A7DD6 /* 62teknologi-senior-frontend-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FE22ED2A174734002A7DD6 /* Build configuration list for PBXNativeTarget "62teknologi-senior-frontend-test" */;
+			buildPhases = (
+				82FE22BF2A174731002A7DD6 /* Sources */,
+				82FE22C02A174731002A7DD6 /* Frameworks */,
+				82FE22C12A174731002A7DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "62teknologi-senior-frontend-test";
+			productName = "62teknologi-senior-frontend-test";
+			productReference = 82FE22C32A174731002A7DD6 /* 62teknologi-senior-frontend-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82FE22D82A174734002A7DD6 /* 62teknologi-senior-frontend-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FE22F02A174734002A7DD6 /* Build configuration list for PBXNativeTarget "62teknologi-senior-frontend-testTests" */;
+			buildPhases = (
+				82FE22D52A174734002A7DD6 /* Sources */,
+				82FE22D62A174734002A7DD6 /* Frameworks */,
+				82FE22D72A174734002A7DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FE22DB2A174734002A7DD6 /* PBXTargetDependency */,
+			);
+			name = "62teknologi-senior-frontend-testTests";
+			productName = "62teknologi-senior-frontend-testTests";
+			productReference = 82FE22D92A174734002A7DD6 /* 62teknologi-senior-frontend-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82FE22E22A174734002A7DD6 /* 62teknologi-senior-frontend-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FE22F32A174734002A7DD6 /* Build configuration list for PBXNativeTarget "62teknologi-senior-frontend-testUITests" */;
+			buildPhases = (
+				82FE22DF2A174734002A7DD6 /* Sources */,
+				82FE22E02A174734002A7DD6 /* Frameworks */,
+				82FE22E12A174734002A7DD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FE22E52A174734002A7DD6 /* PBXTargetDependency */,
+			);
+			name = "62teknologi-senior-frontend-testUITests";
+			productName = "62teknologi-senior-frontend-testUITests";
+			productReference = 82FE22E32A174734002A7DD6 /* 62teknologi-senior-frontend-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FE22BB2A174731002A7DD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					82FE22C22A174731002A7DD6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					82FE22D82A174734002A7DD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 82FE22C22A174731002A7DD6;
+					};
+					82FE22E22A174734002A7DD6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 82FE22C22A174731002A7DD6;
+					};
+				};
+			};
+			buildConfigurationList = 82FE22BE2A174731002A7DD6 /* Build configuration list for PBXProject "62teknologi-senior-frontend-test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82FE22BA2A174731002A7DD6;
+			productRefGroup = 82FE22C42A174731002A7DD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FE22C22A174731002A7DD6 /* 62teknologi-senior-frontend-test */,
+				82FE22D82A174734002A7DD6 /* 62teknologi-senior-frontend-testTests */,
+				82FE22E22A174734002A7DD6 /* 62teknologi-senior-frontend-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82FE22C12A174731002A7DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FE22D32A174734002A7DD6 /* LaunchScreen.storyboard in Resources */,
+				824ACE712A17574400A58301 /* ReviewCell.xib in Resources */,
+				82FE22D02A174734002A7DD6 /* Assets.xcassets in Resources */,
+				82FE22CE2A174731002A7DD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FE22D72A174734002A7DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FE22E12A174734002A7DD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FE22BF2A174731002A7DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FE22CB2A174731002A7DD6 /* BusinessController.swift in Sources */,
+				824ACE702A17574400A58301 /* ReviewCell.swift in Sources */,
+				82FE22C72A174731002A7DD6 /* AppDelegate.swift in Sources */,
+				82FE22C92A174731002A7DD6 /* SceneDelegate.swift in Sources */,
+				82FE22F72A174F20002A7DD6 /* BusinessDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FE22D52A174734002A7DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FE22DE2A174734002A7DD6 /* _2teknologi_senior_frontend_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FE22DF2A174734002A7DD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FE22EA2A174734002A7DD6 /* _2teknologi_senior_frontend_testUITestsLaunchTests.swift in Sources */,
+				82FE22E82A174734002A7DD6 /* _2teknologi_senior_frontend_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82FE22DB2A174734002A7DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FE22C22A174731002A7DD6 /* 62teknologi-senior-frontend-test */;
+			targetProxy = 82FE22DA2A174734002A7DD6 /* PBXContainerItemProxy */;
+		};
+		82FE22E52A174734002A7DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FE22C22A174731002A7DD6 /* 62teknologi-senior-frontend-test */;
+			targetProxy = 82FE22E42A174734002A7DD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82FE22CC2A174731002A7DD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FE22CD2A174731002A7DD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82FE22D12A174734002A7DD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FE22D22A174734002A7DD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82FE22EB2A174734002A7DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82FE22EC2A174734002A7DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FE22EE2A174734002A7DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D25Y73SYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "62teknologi-senior-frontend-test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fadhilfrizar.-2teknologi-senior-frontend-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82FE22EF2A174734002A7DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D25Y73SYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "62teknologi-senior-frontend-test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fadhilfrizar.-2teknologi-senior-frontend-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82FE22F12A174734002A7DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D25Y73SYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fadhilfrizar.-2teknologi-senior-frontend-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/62teknologi-senior-frontend-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/62teknologi-senior-frontend-test";
+			};
+			name = Debug;
+		};
+		82FE22F22A174734002A7DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D25Y73SYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fadhilfrizar.-2teknologi-senior-frontend-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/62teknologi-senior-frontend-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/62teknologi-senior-frontend-test";
+			};
+			name = Release;
+		};
+		82FE22F42A174734002A7DD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D25Y73SYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fadhilfrizar.-2teknologi-senior-frontend-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "62teknologi-senior-frontend-test";
+			};
+			name = Debug;
+		};
+		82FE22F52A174734002A7DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D25Y73SYC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fadhilfrizar.-2teknologi-senior-frontend-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "62teknologi-senior-frontend-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FE22BE2A174731002A7DD6 /* Build configuration list for PBXProject "62teknologi-senior-frontend-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FE22EB2A174734002A7DD6 /* Debug */,
+				82FE22EC2A174734002A7DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FE22ED2A174734002A7DD6 /* Build configuration list for PBXNativeTarget "62teknologi-senior-frontend-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FE22EE2A174734002A7DD6 /* Debug */,
+				82FE22EF2A174734002A7DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FE22F02A174734002A7DD6 /* Build configuration list for PBXNativeTarget "62teknologi-senior-frontend-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FE22F12A174734002A7DD6 /* Debug */,
+				82FE22F22A174734002A7DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FE22F32A174734002A7DD6 /* Build configuration list for PBXNativeTarget "62teknologi-senior-frontend-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FE22F42A174734002A7DD6 /* Debug */,
+				82FE22F52A174734002A7DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FE22BB2A174731002A7DD6 /* Project object */;
+}
